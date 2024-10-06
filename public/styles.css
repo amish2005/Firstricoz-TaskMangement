@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2C3E50;
+  }
+  
+  .task-list {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-name {
+    font-size: 18px;
+    color: #2C3E50;
+  }
+  
+  .task-date {
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-actions .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+  }
+  
+  .task-actions .edit-btn {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .task-actions .edit-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  .task-actions .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .task-actions .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .add-task {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .add-task-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  .add-task-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Form Styling (for newTask.ejs) */
+  .task-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .task-form label {
+    font-size: 16px;
+    color: #2C3E50;
+  }
+  
+  .task-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  .back-btn {
+    padding: 10px 20px;
+    background-color: #34495e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .back-btn:hover {
+    background-color: #2c3e50;
+  }
+  
